@@ -1,0 +1,15 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "just for learning",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahmoud Ibrahim",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "yargs": "^4.7.1"
+  }
+}
