@@ -21,5 +21,3 @@ if (command === 'add') {
   }else {
   console.log('Command not recognized');
 }
-const manage_json = require("./playground/json_manage.js");
-
