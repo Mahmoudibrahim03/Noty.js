@@ -8,16 +8,23 @@ var command = argv._[0];
 console.log(argv);
 
 console.log('Command: ', command,'\n'); 
-if (command === 'add') {
-  notes.addNote(argv.title,argv.body);
-} else if (command === 'list') {
-  notes.getAll();
-} else if (command === 'read') {
-  console.log('Reading note');
-} else if (command === 'remove') {
-  notes.remove(argv.title);
-} else if (command === undefined) {
+switch (command) {
+  case 'add':
+    notes.addNote(argv.title, argv.body);
+    break;
+  case 'read':
+    console.log('Reading note');
+    break;
+  case 'remove':
+    notes.remove(argv.title);
+    break;
+  case 'list':
+    notes.getAll();
+    break;
+  case undefined:
     console.log("please input what to do ! \n");
-  }else {
-  console.log('Command not recognized');
+    break;
+  default:
+    console.log('Command not recognized');
+    break;
 }
