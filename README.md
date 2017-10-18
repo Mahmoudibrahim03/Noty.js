@@ -9,7 +9,7 @@ Very simple note app using node.js <br>
   4- choose what to do from this options <br>
   > All of this options in test mode and will be update soon .<br>
   ```
-  node app.js [what to do (add,remove,list)] --title="note title" --body="note body" <br>
+  node app.js [what to do (add,remove,list)] --title="note title" --body="note body"
   ```
   command have to be like that for example <br>
   ## To add <br>
